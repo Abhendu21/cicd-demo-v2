@@ -77,6 +77,7 @@ class Job(ABC):
             self.spark.read.format("text").load(conf_file).toPandas()["value"].tolist()
         )
         config = json.loads(raw_content)
+        print('hello')
         return config
 
     def _prepare_logger(self) -> Logger:
