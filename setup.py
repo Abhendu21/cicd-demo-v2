@@ -7,5 +7,5 @@ setup(
     setup_requires=["wheel"],
     version=__version__,
     description="Databricks Labs CICD Templates Sample Project",
-    author="",
+    author=""
 )
